@@ -11,9 +11,9 @@ const Graph = () => {
           alt="graphimg"
         />
         <div className="back">
-        <Link to="/">
-          <h4>Back to homepage🔄</h4>
-        </Link>
+          <Link to="/">
+            <h4>Back to homepage🔄</h4>
+          </Link>
 
         </div>
       </div>
