@@ -28,7 +28,7 @@ const App = () => {
       <hr/>
       <div className="dialoug_button">
 
-      <button onClick={handleOpen}>Dialog box</button>
+      <button onClick={handleOpen}>Click me</button>
       </div>
 
       <Dialog open={open} onClose={handleClose} className="dialog">
