@@ -3,12 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter , Switch , Route} from 'react-router-dom'
+import Graph from './Graph';
 
 ReactDOM.render(
   <>
     <BrowserRouter>
+    <Switch>
+    <Route path="/graph">
+    <Graph/>
+    </Route>
+    <Route path="/">
       <App />
+      </Route>
+      </Switch>
     </BrowserRouter>
 
   </>,
